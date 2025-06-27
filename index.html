@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CANIL | İnşaat & Taahhüt</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #111;
+    }
+
+    header {
+      background: url('https://via.placeholder.com/1200x600?text=Insaat+Gorseli') no-repeat center center/cover;
+      height: 450px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 2.2em;
+      margin-bottom: 0.5em;
+    }
+
+    header p {
+      font-size: 1.1em;
+      max-width: 700px;
+    }
+
+    .section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+      font-size: 1.8em;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .service {
+      flex: 1 1 200px;
+      min-width: 200px;
+    }
+
+    .references {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .ref {
+      width: 220px;
+    }
+
+    .ref img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 500px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type=submit] {
+      background-color: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    input[type=submit]:hover {
+      background-color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>YAPI PROJELERİNDE GELİŞTİRME, TAAHHÜT VE UYGULAMA HİZMETLERİ</h1>
+    <p>Proje geliştirme, yapım ve taahhüt hizmetleri – uygun bütçeli ve her ölçekte uygulama çözümleriyle</p>
+  </header>
+
+  <section class="section">
+    <h2>Hizmetlerimiz</h2>
+    <div class="services">
+      <div class="service">
+        <strong>Alçıpan & Bölme Duvar Sistemleri</strong><br>
+        - Karkaslı panel, alçıpan, sıva uygulamaları
+      </div>
+      <div class="service">
+        <strong>Zemin Kaplama</strong><br>
+        Şap, mermer, PVC, sıva uygulamaları
+      </div>
+      <div class="service">
+        <strong>Tavan Sistemleri</strong><br>
+        Açma tavan, içeri bölme çözümleri
+      </div>
+      <div class="service">
+        <strong>Kaynaklı İmalatlar</strong><br>
+        Kutu profil işçiliği, saha çözümleri
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Referanslar</h2>
+    <div class="references">
+      <div class="ref">
+        <img src="images/dental-office.jpg" alt="Dental Office">
+        <p><strong>Dental Office</strong><br>İstanbul – 2023</p>
+      </div>
+      <div class="ref">
+        <img src="images/yazlik-konut.jpg" alt="Yazlık Konut">
+        <p><strong>Yazlık Konut</strong><br>Sapanca – 2022</p>
+      </div>
+      <div class="ref">
+        <img src="images/sirket-binasi.jpg" alt="Şirket Binası">
+        <p><strong>Şirket Binası</strong><br>İstanbul – 2021</p>
+      </div>
+      <div class="ref">
+        <img src="images/butik-otel.jpg" alt="Butik Otel">
+        <p><strong>Butik Otel</strong><br>İzmit – 2020</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Teklif Al</h2>
+    <form>
+      <input type="text" placeholder="Ad Soyad" required>
+      <input type="tel" placeholder="Telefon">
+      <input type="email" placeholder="E posta" required>
+      <textarea rows="4" placeholder="Açıklama"></textarea>
+      <input type="submit" value="Gönder">
+    </form>
+  </section>
+
+</body>
+</html>
